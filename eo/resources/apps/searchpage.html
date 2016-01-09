@@ -1,0 +1,35 @@
+<ion-pane class=" mainview ">
+    <ion-header-bar class="bar-stable">
+        <div class="buttons">
+            <button class="button icon-left ion-arrow-left-c button-clear" ng-click="back()"></button>
+        </div>
+        <h1 class="title">SEARCH</h1>
+    </ion-header-bar>
+    <ion-content style="background:transparent">
+        <div>
+            <ion-list>
+                <ion-item style="background:transparent">
+                    <label class="item item-input">
+                        <span><button class="button icon-left ion-ios-search-strong">Search-by</button></span>
+                        <div style="width:75%">
+                            <label class="item item-input item-select">
+                                <div class="input-label" style="width:5%;color:red">
+                                    OPTION
+                                </div>
+                                <select style="width:30%">
+                                    <option selected>Event-Name</option>
+                                    <option>Contact-Person</option>
+                                    <option>Phone-Number</option>
+
+                                </select>
+                            </label>
+                        </div>
+                        <button class="button button-balanced confirmbutton" style="margin-left:1%">
+                            OK
+                        </button>
+                    </label>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-pane>
